@@ -1,0 +1,32 @@
+--- src/startup/simrc	
++++ src/startup/simrc
+@@ -5,23 +5,23 @@
+ //      SIMPATH - path to search for scripts (includes the startup path)
+ //      SIMNOTES - default file for simulator notes
+ //===========================================================================
+-setenv SIMPATH	. /usr/genesis/startup		\
+-		/usr/genesis/Scripts/neurokit   \
+-		/usr/genesis/Scripts/neurokit/prototypes
++setenv SIMPATH	. /opt/anaconda1anaconda2anaconda3/startup		\
++		/opt/anaconda1anaconda2anaconda3/Scripts/neurokit   \
++		/opt/anaconda1anaconda2anaconda3/Scripts/neurokit/prototypes
+ 
+ // This adds the Xodus 1 compatability library directory to the
+ // SIMPATH.  If you are not expecting to use X1compat, you can
+ // comment out the following line.
+-setenv SIMPATH {getenv SIMPATH} /usr/genesis/Scripts/X1compat
++setenv SIMPATH {getenv SIMPATH} /opt/anaconda1anaconda2anaconda3/Scripts/X1compat
+ 
+ setenv SIMNOTES {getenv HOME}/.notes
+-setenv GENESIS_HELP /usr/genesis/Doc
++setenv GENESIS_HELP /opt/anaconda1anaconda2anaconda3/Doc
+ 
+ //===========================================================================
+ //                             set up tables 
+ //===========================================================================
+ schedule			// default simulation schedule
+ 
+-// See /usr/genesis/startup/escapelist.g for macro definitions.  These allow
++// See /opt/anaconda1anaconda2anaconda3/startup/escapelist.g for macro definitions.  These allow
+ // you to use cursor keys for the recall and editing of previous commands
+ include          escapelist      // setup macro keys for DEC and SUN keyboards

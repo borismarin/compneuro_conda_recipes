@@ -8,6 +8,7 @@ source:
   patches:
     - fixbin.patch 
     - rename_convert.patch
+    - simrc_path.patch
 
 build:
   number: 0
