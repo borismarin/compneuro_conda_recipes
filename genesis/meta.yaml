@@ -5,10 +5,6 @@ package:
 source:
   git_url: git@github.com:borismarin/genesis2.4gamma.git
   git_tag: v2.4
-  patches:
-    - fixbin.patch 
-    - rename_convert.patch
-    - simrc_path.patch
 
 build:
   number: 0
