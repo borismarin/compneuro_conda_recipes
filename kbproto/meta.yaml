@@ -1,0 +1,19 @@
+package:
+  name: kbproto 
+  version: "1.0.6"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/proto/kbproto
+  git_tag: kbproto-1.0.6
+
+requirements:
+  build:
+    - xorg-macros
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "X.org KBProto protocol headers."

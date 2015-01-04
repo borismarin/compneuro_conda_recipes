@@ -1,0 +1,19 @@
+package:
+  name: inputproto 
+  version: "2.3.1"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/proto/inputproto
+  git_tag: inputproto-2.3.1
+
+requirements:
+  build:
+    - xorg-macros
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "X.org inputproto protocol headers."

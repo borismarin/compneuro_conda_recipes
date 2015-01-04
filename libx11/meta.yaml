@@ -10,6 +10,14 @@ requirements:
   build: 
     - libtool
     - gettext
+    - pkg-config
+    - libxcb
+    - pthread_stubs
+    - libxau
+    - libxtrans
+    - xproto
+    - kbproto
+    - inputproto
     - xextproto
     - xorg-macros
 

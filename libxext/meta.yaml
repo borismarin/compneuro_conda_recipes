@@ -9,8 +9,10 @@ source:
 requirements:
   build:
     - libtool
-    - xextproto
+    - pkg-config
     - xorg-macros
+    - xproto
+    - xextproto
 
 build:
   number: 0
