@@ -1,0 +1,15 @@
+package:
+  name: xorg-macros
+  version: "1.19.0"
+
+source:
+  git_url: git://anongit.freedesktop.org/git/xorg/util/macros 
+  git_tag: util-macros-1.19.0 
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Building_the_X_Window_System/ 
+  license: X.ORG/MIT
+  summary: "m4 macros for building X11"
