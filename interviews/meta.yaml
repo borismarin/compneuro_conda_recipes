@@ -6,14 +6,6 @@ source:
   url: http://www.neuron.yale.edu/ftp/neuron/versions/v7.3/iv-18.tar.gz
   fn : iv-18.tar.gz
 
-requirements:
-  build: 
-    - libxext
-    - xextproto
-#    - libx11
-# run: 
-#   - libx11
-
 build:
   number: 0
 
