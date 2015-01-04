@@ -1,0 +1,29 @@
+package:
+  name: neuron
+  version: "7.3"
+
+source:
+  url: http://www.neuron.yale.edu/ftp/neuron/versions/v7.3/nrn-7.3.tar.gz
+  fn : nrn-7.3.tar.gz
+
+requirements:
+  build:
+    - interviews 
+    - readline
+    - ncurses
+    - libtool
+    - python
+  run:
+    - interviews
+
+build:
+  number: 0
+
+test:
+  commands:
+    - nrniv --version
+
+about:
+  home: http://www.neuron.yale.edu/neuron/
+  license: LGPL?
+  summary: "NEURON is a simulation environment for modeling individual neurons and networks of neurons. It provides tools for conveniently building, managing, and using models in a way that is numerically sound and computationally efficient. It is particularly well-suited to problems that are closely linked to experimental data, especially those that involve cells with complex anatomical and biophysical properties."
