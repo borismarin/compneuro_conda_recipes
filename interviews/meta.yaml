@@ -1,0 +1,23 @@
+package:
+  name: interviews
+  version: "3.1"
+
+source:
+  url: http://www.neuron.yale.edu/ftp/neuron/versions/v7.3/iv-18.tar.gz
+  fn : iv-18.tar.gz
+
+requirements:
+  build: 
+    - libxext
+    - xextproto
+#    - libx11
+# run: 
+#   - libx11
+
+build:
+  number: 0
+
+about:
+  home: http://www.ivtools.org/ivtools/interviews.html
+  license: LGPL?
+  summary: "InterViews is a native C++ toolkit for X Windows developed by Mark Linton and his team at Stanford University and later Silicon Graphics. The last major release was InterViews 3.1 in 1993, and included the Unidraw drawing editor application framework which was the basis of John Vlissides' thesis work at Stanford. InterViews also has lightweight glyphs with switchable look-and-feel (Apple monochrome, Motif, OpenLook, and SGI Motif). It has been ported to most any Unix which runs X11. Other programmers known to have worked on InterViews include Paul Calder, John Interrante, Steven Tang, and Scott Stanton. Later Mark Linton released an InterViews 3.2a with minor bug fixes and platform-specific changes. That is the source tree we started with for ivtools."
