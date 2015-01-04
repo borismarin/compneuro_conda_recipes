@@ -1,0 +1,19 @@
+package:
+  name: xextproto 
+  version: "7.3.0"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/proto/xextproto
+  git_tag: xextproto-7.3.0 
+
+requirements:
+  build:
+    - xorg-macros
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "X.org XExtProto protocol headers."
