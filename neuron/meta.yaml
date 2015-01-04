@@ -8,13 +8,11 @@ source:
 
 requirements:
   build:
-    - interviews 
     - readline
     - ncurses
-    - libtool
     - python
   run:
-    - interviews
+    - readline
 
 build:
   number: 0
