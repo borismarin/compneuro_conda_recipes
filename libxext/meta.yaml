@@ -1,0 +1,21 @@
+package:
+  name: libxext
+  version: "1.3.3"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/lib/libXext
+  git_tag: libXext-1.3.3 
+
+requirements:
+  build:
+    - libtool
+    - xextproto
+    - xorg-macros
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "Common X Extensions library."
