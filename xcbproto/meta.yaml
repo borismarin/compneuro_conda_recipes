@@ -1,0 +1,20 @@
+package:
+  name: xcbproto
+  version: "1.11"
+
+source:
+  git_url: git://anongit.freedesktop.org/xcb/proto
+  git_tag: 1.11
+
+requirements:
+  build:
+    - xorg-macros
+    - python
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "XML-XCB protocol descriptions"

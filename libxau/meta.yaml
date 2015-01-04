@@ -1,0 +1,20 @@
+package:
+  name: libxau 
+  version: "1.0.8"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/lib/libXau
+  git_tag: libXau-1.0.8 
+
+requirements:
+  build:
+    - xproto
+    - xorg-macros
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "X Authorization routines"

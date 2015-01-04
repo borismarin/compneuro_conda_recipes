@@ -1,0 +1,20 @@
+package:
+  name: pthread_stubs
+  version: "0.3"
+
+source:
+  git_url: git://anongit.freedesktop.org/xcb/pthread-stubs
+  git_tag: 0.3
+
+requirements:
+  build:
+    - xorg-macros
+    - python
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "Library that provides pthread stubs that are missing from your platform libc."

@@ -1,0 +1,29 @@
+package:
+  name: libxcb
+  version: "1.11"
+
+source:
+  git_url: git://anongit.freedesktop.org/xcb/libxcb
+  git_tag: 1.11 
+
+requirements:
+  build: 
+    - libtool
+    - gettext
+    - pkg-config
+    - libxtrans
+    - xcbproto
+    - pthread_stubs
+    - libxau
+    - xproto
+    - xextproto
+    - xorg-macros
+    - python
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/guide/xlib-and-xcb/ 
+  license: X.ORG/MIT
+  summary: "The X C Binding (XCB) library"

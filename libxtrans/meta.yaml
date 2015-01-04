@@ -1,0 +1,21 @@
+package:
+  name: libxtrans
+  version: "1.3.5"
+
+source:
+  git_url: git://anongit.freedesktop.org/xorg/lib/libxtrans
+  git_tag: xtrans-1.3.5 
+
+requirements:
+  build:
+    - libtool
+    - xorg-macros
+    - pkg-config
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/Development/BuildingX/ 
+  license: X.ORG/MIT
+  summary: "X Network Transport layer shared code"
