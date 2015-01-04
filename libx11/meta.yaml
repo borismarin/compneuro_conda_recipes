@@ -1,0 +1,24 @@
+package:
+  name: libx11
+  version: "1.6.2"
+
+source:
+  git_url: git://git.freedesktop.org/git/xorg/lib/libX11
+  git_tag: libX11-1.6.2 
+
+requirements:
+  build: 
+    - libtool
+    - gettext
+    - xextproto
+    - xorg-macros
+#  run: 
+#    - libx11
+
+build:
+  number: 0
+
+about:
+  home: http://www.x.org/wiki/guide/xlib-and-xcb/ 
+  license: X.ORG/MIT
+  summary: "Xlib (also known as libX11) is an X Window System protocol client library written in the C programming language. It contains functions for interacting with an X server. These functions allow programmers to write programs without knowing the details of the protocol"
