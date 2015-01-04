@@ -10,6 +10,12 @@ requirements:
   build:
     - libtool
     - pkg-config
+    - libx11
+    - kbproto
+    - libxau
+    - inputproto
+    - libxcb
+    - pthread_stubs
     - xorg-macros
     - xproto
     - xextproto
